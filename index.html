@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /*
+      Write your CSS here
+      Gap Colour: #000
+      White: #F0F1EC
+      Red: #E72F24
+      Black: #232629
+      Blue: #004592
+      Yellow: #F9D01E
+
+      For dimensions, see dimensions.png image.
+      HINT: Remember you can't change the properties of grid lines.
+      But grid lines are transparent!
+      */
+      .painting {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      .gridContainer {
+        display: grid;
+        height: 748px;
+        width: 748px;
+        background-color: #000;
+        gap: 9px;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 22px;
+      }
+
+      .red {
+        background-color: #e72f24;
+        /* height: 414px;
+        width: 320px; */
+      }
+
+      .blue {
+        background-color: #004592;
+        /* height: 130px;
+        width: 50px; */
+        border-bottom: #000 solid 10px;
+      }
+
+      .yellow {
+        background-color: #f9d01e;
+        /* height: 20px;
+        width: 198px; */
+      }
+
+      .black {
+        background-color: #232629;
+        /* height: 20px;
+        width: 153px; */
+      }
+
+      .whiteOne {
+        background-color: #f0f1ec;
+        grid-column: span 3;
+      }
+
+      .whiteTwo {
+        background-color: #f0f1ec;
+        grid-row: span 2;
+      }
+
+      .whiteThree {
+        background-color: #f0f1ec;
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+
+      .whiteFour {
+        background-color: #f0f1ec;
+        grid-row: span 2;
+      }
+
+      .whiteFive {
+        background-color: #f0f1ec;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="painting">
+      <div class="gridContainer">
+        <div class="red"></div>
+        <div class="whiteOne"></div>
+        <div class="whiteTwo"></div>
+        <div class="whiteThree"></div>
+        <div class="blue"></div>
+        <div class="whiteFour"></div>
+        <div class="whiteFive"></div>
+        <div class="yellow"></div>
+        <div class="black"></div>
+      </div>
+    </div>
+  </body>
+</html>
