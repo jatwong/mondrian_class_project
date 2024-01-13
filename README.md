@@ -10,4 +10,4 @@ See the [completed Grid Mondrian Composition](https://jatwong.github.io/mondrian
 
 ## Screenshot
 
-![Screenshot of the finished Mondrian grid recreation](./mondrianThmb.png)
+![Screenshot of the finished Mondrian grid recreation](/mondrianThmb.png)
